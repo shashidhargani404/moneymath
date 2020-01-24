@@ -1,0 +1,12 @@
+#nav {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+#nav li {
+  margin-right: 10px;
+}
+
+#users-list {
+  list-style-type: disc;
+}

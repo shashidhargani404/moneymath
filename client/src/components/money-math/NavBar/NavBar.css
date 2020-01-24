@@ -1,0 +1,84 @@
+/* NavBar */
+#NB-container {
+    padding: 8px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.438);
+    display: flex;
+}
+
+#NB-icon {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+#NB-cal-icon {
+    color: white;
+    font-size: 42px;
+    padding-right: 10px;
+}
+
+#NB-icon span {
+    color: rgb(206, 206, 206);
+    font-size: 32px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#NB-sb-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#NB-search-bar {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.301);
+    padding: 0 4px;
+    border-radius: 6px;
+}
+
+#NB-search-bar button {
+    border: 0;
+    outline: none;
+    font-size: 24px;
+    padding: 10px 12px 3px;
+    color: rgb(243, 243, 243);
+    background-color: rgba(221, 221, 221, 0);
+    cursor: pointer;
+}
+
+#NB-search-bar input {
+    border: none;
+    outline: none;
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 43vw;
+}
+
+#NB-search-bar input:focus::placeholder {
+    color: rgb(100, 100, 100);
+}
+
+#NB-search-bar input::placeholder {
+    color: rgb(243, 243, 243);
+}
+
+#NB-user-profile {
+    background-color: rgba(58, 58, 58, 0.911);
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+#NB-user-profile span {
+    position: relative;
+    top: 7px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
