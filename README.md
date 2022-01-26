@@ -1,6 +1,3 @@
-<h1>MoneyMath</h1>
-<p>MoneyMath is an application like money management system. It keeps track of all your financial statements. It works in four parts, those are Income, Expense, Borrow and Lend. The main idea behind this application is to figure out how much money you have in your hand and your total savings. </p>
-
 <h1>Dependencies and installation</h1>
 <ul>
   <li><h3>Front End</h3>
@@ -27,9 +24,4 @@
         <li>path <span>npm install --save path</span></li>
       </ol>
   </li>
-</ul>
-
-<h1>Author</h1>
-<ul>
-  <li>Shashidhar Gani</li>
 </ul>
